@@ -1,0 +1,7 @@
+members:
+    -
+        name: "fred"
+        picture: "team/pictures/test.png"
+    -
+        name: "jane"
+        picture: "team/pictures/test.png"
