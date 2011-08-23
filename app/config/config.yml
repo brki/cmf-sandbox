@@ -71,6 +71,12 @@ doctrine_phpcr:
     # enable the ODM layer
     odm:
         auto_mapping: true
+        mappings:
+            phpcrodm:
+                is_bundle: false
+                type: annotation
+                dir: %kernel.root_dir%/../vendor/symfony-cmf/vendor/doctrine-phpcr-odm/lib/Doctrine/ODM/PHPCR/Document
+                prefix: Doctrine\ODM\PHPCR\Document\
 
 knp_menu:
     twig: true
